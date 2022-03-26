@@ -1,0 +1,21 @@
+{
+    "name": "bravato-theme",
+    "displayName": "Bravato Theme",
+    "description": "Bravato Theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bravato Theme",
+                "uiTheme": "vs",
+                "path": "./themes/bravato-theme-color-theme.json"
+            }
+        ]
+    }
+}
