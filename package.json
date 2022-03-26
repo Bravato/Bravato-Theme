@@ -2,20 +2,39 @@
     "name": "bravato-theme",
     "displayName": "Bravato Theme",
     "description": "Bravato Theme for Visual Studio Code",
-    "version": "0.0.1",
+    "publisher": "FlorinBratan",
+    "version": "1.0.0",
+	"license": "MIT",
+    "galleryBanner": {
+		"color": "#D365FF",
+		"theme": "light"
+	},
     "engines": {
         "vscode": "^1.65.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"bravato",
+		"theme",
+		"light"
+	],
     "contributes": {
         "themes": [
             {
-                "label": "Bravato Theme",
+                "label": "Bravato",
                 "uiTheme": "vs",
                 "path": "./themes/bravato-theme-color-theme.json"
             }
         ]
-    }
+    },
+    "bugs": {
+		"url": "https://github.com/Bravato/Bravato-Theme/issues"
+	},
+	"homepage": "https://github.com/Bravato/Bravato-Theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Bravato/Bravato-Theme"
+	}
 }
