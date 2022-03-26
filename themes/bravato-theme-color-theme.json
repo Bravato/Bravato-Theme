@@ -104,27 +104,25 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"rules": {
-            "namespace": "#44474E",
+		 "namespace": "#44474E",
             "parameter": "#44474E",
             "variable": "#44474E",
-            "variable.readonly": "#9D7111",
+            "variable.readonly": "#874B2A",
             "local": "#44474E",
             "field": "#44474E",
-            "method": "#9D7111",
-            "function": "#9D7111",
+            "method": "#874B2A",
+            "function": "#874B2A",
             "property": "#44474E",
-            "enumMember": "#9D7111",
+            "enumMember": "#874B2A",
             "enum": "#7026B5",
             "class": "#7026B5",
             "interface": "#7026B5",
             "struct": "#7026B5",
-            "extensionMethod": "#9D7111",
+            "extensionMethod": "#874B2A",
             "annotation": "#CDAAED",
             "property.annotation": "#CDAAED",
             "class.annotation": "#CDAAED",
-        },
-	},
+	}, 
 	"tokenColors": [
 		   // Colors
 		   {  
@@ -145,7 +143,7 @@
 		 {  
 			"name":"Brown",
 			"scope":"none",
-			"settings":{"foreground":"#9D7111" }
+			"settings":{"foreground":"#874B2A" }
 		 },
 		 {  
 			"name":"Light Gray",
@@ -343,7 +341,7 @@
 			   "variable"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -398,7 +396,7 @@
 			   "string.other.link"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -599,7 +597,7 @@
 			   "meta.definition.variable"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -698,7 +696,7 @@
 			   "markup.deleted"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -717,7 +715,7 @@
 			   "markup.heading"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -818,7 +816,7 @@
 			   "source.ini keyword.other.definition.ini"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -869,7 +867,7 @@
 			   "source.json meta.structure.dictionary.json > string.quoted.json"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -878,7 +876,7 @@
 			   "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -993,7 +991,7 @@
 			   "support.variable.dom.ts"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1003,7 +1001,7 @@
 			   "support.variable.property.dom.ts"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1057,7 +1055,7 @@
 			   "support.variable.property.tsx"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1151,7 +1149,7 @@
 			   "source.tsx support.variable"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1204,7 +1202,7 @@
 			   "constant.language.import-export-all.ts"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1319,7 +1317,7 @@
 			   "meta.definition.property.tsx variable"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1379,7 +1377,7 @@
 			   "support.type.object.module.tsx"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1468,7 +1466,7 @@
 			   "meta.object-literal.key.ts"
 			],
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 // C# Specific Colors
@@ -1476,7 +1474,7 @@
 			"name":"CSharp Fields",
 			"scope":"entity.name.variable.field.cs",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1532,7 +1530,7 @@
 			"name":"Shell Variables Punctuation Definition",
 			"scope":"punctuation.definition.variable.shell",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1553,7 +1551,7 @@
 			"name":"Sass Punctuation for key-value",
 			"scope":"punctuation.separator.key-value.scss",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1581,14 +1579,14 @@
 			"name":"Markdown headings",
 			"scope":"entity.name.section.markdown",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
 			"name":"Markdown heading Punctuation Definition",
 			"scope":"punctuation.definition.heading.markdown",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1616,7 +1614,7 @@
 			"name":"Markdown List Punctuation Definition",
 			"scope":"beginning.punctuation.definition.list.markdown",
 			"settings":{
-			   "foreground":"#9D7111"
+			   "foreground":"#874B2A"
 			}
 		 },
 		 {
@@ -1692,7 +1690,7 @@
 			  "meta.interface.tsx"
 		   ],
 		   "settings": {
-			  "foreground": "#9D7111",
+			  "foreground": "#874B2A",
 		   }
 		},
 		{
@@ -1758,7 +1756,7 @@
 		{
 		   "scope": "constant.language",
 		   "settings": {
-			  "foreground": "#9D7111"
+			  "foreground": "#874B2A"
 		   }
 		},
 		// Markdown
@@ -1769,7 +1767,7 @@
 			  "markup.heading.markdown"
 		   ],
 		   "settings": {
-			  "foreground": "#9D7111",
+			  "foreground": "#874B2A",
 			  "fontStyle": ""
 		   }
 		},
