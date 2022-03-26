@@ -2,11 +2,12 @@
     "name": "bravato-theme",
     "displayName": "Bravato Theme",
     "description": "Bravato Theme for Visual Studio Code",
-    "publisher": "FlorinBratan",
+    "publisher": "florin-bratan",
     "version": "1.0.0",
 	"license": "MIT",
+    "icon": "icon.png",
     "galleryBanner": {
-		"color": "#D365FF",
+		"color": "#ffffff",
 		"theme": "light"
 	},
     "engines": {
